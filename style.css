@@ -286,46 +286,8 @@ li{
     padding: 20px;
 }
 
-.skills-container .row-container .rows .back svg{
-    transform: translateX(29%);
-    fill: none;
-    stroke: white;
-    stroke-width: 10;
-    stroke-dashoffset: 440;
-    stroke-dasharray: 440;
-    stroke-linecap: round;
-}
 
-.skills-container .row-container .rows .back .java circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (70*440)/100);
-    stroke-dasharray: 440;
-}
-.skills-container .row-container .rows .back .python circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (78*440)/100);
-    stroke-dasharray: 440;
-    background-color: white;
-}
-.skills-container .row-container .rows .back .web circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (65*440)/100);
-    stroke-dasharray: 440;
-    background: #e98a1e;
-}
 
-.skills-container .row-container .rows .back .ml circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (68*440)/100);
-    stroke-dasharray: 440;
-    color: #e98a1e;
-}
-.skills-container .row-container .rows .back .iot circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (45*440)/100);
-    stroke-dasharray: 440;
-    background: #e98a1e;
-}
-.skills-container .row-container .rows .back .open circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (35*440)/100);
-    stroke-dasharray: 440;
-    background: #e98a1e;
-}
 
 .skills-container .row-container .rows .back h1{
     position: absolute;
