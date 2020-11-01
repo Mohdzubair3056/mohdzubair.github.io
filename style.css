@@ -278,6 +278,7 @@ li{
     background-color: #2196f3;
     width: 100%;
     color: white;
+    visibility: hidden;
 }
 
 .skills-container .row-container .rows .back h2{
@@ -300,10 +301,12 @@ li{
 
 .skills-container .row-container .rows:hover > .back{
     transform: perspective(600px) rotateY(0deg);
+    visibility: visible;
 }
 
 .skills-container .row-container .rows:hover > .front{
     transform: perspective(600px) rotateY(-180deg);
+    visibility: hidden;
 }
 
 
