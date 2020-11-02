@@ -194,16 +194,14 @@ li{
 
 
 
-.about-me .row .inner-row-1 img{
-    width: 450px;
-    transform: translateY(5%);
-    transition: 0.5s all;   
+.about-me .row .inner-row-1 svg{
+    width: 300px;
+    height: 350px;
+    transition: 0.5s all; 
+    transform: translateY(-15%); 
     
 }
-.about-me .row .inner-row-1 img:hover{
-    transform: scale(1.03) translateY(5%);
-   
-}
+
 
 .about-me .row p{
     padding: 45px 25px 25px 25px;
@@ -251,7 +249,7 @@ li{
 }
 
 .skills-container .row-container .rows{
-    width: 30%;
+    width: 26vw;
     height:320px;
     margin: 20px 20px;
     margin-bottom: 80px;
@@ -365,12 +363,13 @@ li{
 
 }
 
-.projects .projects-info img{
+.projects .projects-info svg{
     width: 40%;
-    transition: 0.5s all;   
+    transition: 0.5s all; 
+    height: 350px;
 }
 
-.projects .projects-info img:hover{
+.projects .projects-info svg:hover{
     transform: scale(1.03);
 }
 
@@ -474,12 +473,12 @@ li{
         margin: 50px auto;
     }
 
-    .about-me .row .inner-row-1 img{
+    .about-me .row .inner-row-1 svg{
         width: 60%;
         transform: translate(35% , -10%); 
     }
 
-    .about-me .row .inner-row-1 img:hover{
+    .about-me .row .inner-row-1 svg:hover{
         width: 60%;
         transform: translate(35% , -10%) scale(1.03); 
     }
@@ -510,7 +509,7 @@ li{
         word-spacing: 3px;
     }
 
-    .projects .projects-info img{
+    .projects .projects-info svg{
         width: 50%;
     }
 }
@@ -566,12 +565,12 @@ li{
     }
 
 
-    .about-me .row .inner-row-1 img{
+    .about-me .row .inner-row-1 svg{
         width: 75%;
         transform: translate(18%, -10%);   
     }
 
-    .about-me .row .inner-row-1 img:hover{
+    .about-me .row .inner-row-1 svg:hover{
         width: 75%;
         transform: translate(18%, -10%) scale(1.03);   
     }
@@ -614,7 +613,7 @@ li{
         word-spacing: 3px;
     }
 
-    .projects .projects-info img{
+    .projects .projects-info svg{
         width: 80%;
     }
 }
